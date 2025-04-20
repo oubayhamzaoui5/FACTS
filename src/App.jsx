@@ -33,7 +33,7 @@ function AppContent() {
 
 function App() {
   return (
-    <Router  basename="/FACTS/">
+    <Router  basename="/FACTS">
       <AppContent />
     </Router>
   );
