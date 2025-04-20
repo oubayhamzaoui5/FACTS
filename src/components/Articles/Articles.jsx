@@ -80,16 +80,16 @@ const Articles = () => {
           <div key={article.id} className={styles.card}>
             <div className={styles.header}>
               <span className={styles.poster}>
-                <img src={import.meta.env.BASE_URL +anonImg} alt="anon" className={styles.anonIcon} />
+                <img src={anonImg} alt="anon" className={styles.anonIcon} />
                 {article.poster}
               </span>             
               <div className={styles.votes}>
                 <div>
                   <button>
-                    <img src={import.meta.env.BASE_URL +upArrow} alt="Upvote" className={`${styles.voteIcon} ${styles.upIcon}`} />
+                    <img src={upArrow} alt="Upvote" className={`${styles.voteIcon} ${styles.upIcon}`} />
                   </button>
                   <button>
-                    <img src={import.meta.env.BASE_URL +downArrow} alt="Downvote" className={`${styles.voteIcon} ${styles.downIcon}`} />
+                    <img src={downArrow} alt="Downvote" className={`${styles.voteIcon} ${styles.downIcon}`} />
                   </button>
                 </div>
                 <span className={styles.voteCount}>{article.upvotes}</span>

@@ -218,17 +218,17 @@ export default function InvestigationWorkspace() {
   <div className={styles.toolbar}>
   {/* Save button */}
   <button className={styles.toolbarButton} onClick={() => {}}>
-    <img src={import.meta.env.BASE_URL + saveIcon} alt="Save" className={styles.iconImage} />
+    <img src={ saveIcon} alt="Save" className={styles.iconImage} />
   </button>
 
   {/* Add Note button */}
   <button className={styles.toolbarButton} onClick={addNote}>
-    <img src={import.meta.env.BASE_URL + noteIcon} alt="Add Note" className={styles.iconImage} />
+    <img src={ noteIcon} alt="Add Note" className={styles.iconImage} />
   </button>
 
   {/* Add Image button */}
   <button onClick={() => fileInputRef.current.click()} className={styles.toolbarButton}>
-    <img src={import.meta.env.BASE_URL + imgIcon} alt="Add Image" className={styles.iconImage} />
+    <img src={ imgIcon} alt="Add Image" className={styles.iconImage} />
   </button>
   <input
     type="file"
@@ -240,7 +240,7 @@ export default function InvestigationWorkspace() {
 
   {/* Add Link button */}
   <button className={styles.toolbarButton} onClick={addLink}>
-    <img src={import.meta.env.BASE_URL + webIcon} alt="Add Link" className={styles.iconImage} />
+    <img src={ webIcon} alt="Add Link" className={styles.iconImage} />
   </button>
 </div>
 
@@ -325,7 +325,7 @@ export default function InvestigationWorkspace() {
                 />
                 ) : item.type === 'image' ? (
                 <img
-                    src={import.meta.env.BASE_URL + item.src}
+                    src={ item.src}
                     alt="uploaded"
                     className={styles.image}
                     draggable="false"
