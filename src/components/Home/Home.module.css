@@ -1,0 +1,251 @@
+.container {
+    scroll-behavior: smooth;
+  }
+  
+  .section {
+    height: calc(100vh - 54px);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 2rem;
+    text-align: center;
+    
+  }
+  .heroSection {
+    position: relative;
+    overflow: hidden;
+  }
+  
+
+  
+  .heroText {
+    position: relative;
+    z-index: 2;
+    text-align: center;
+  }
+  .memberSection{
+    background-color: #181818;
+  }
+
+  
+  .slogan {
+    font-size: 2.2rem;
+    color: white;
+    font-weight: bold;
+    transform: translateY(-120px);
+  }
+
+  .detectorSection {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 2rem;
+  }
+  
+  .detectorContent {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    max-width: 1200px;
+    width: 100%;
+    gap: 3rem;
+  }
+  
+  .detectorImage {
+    width: 45%;
+    max-width: 800px;
+  }
+  
+  .detectorText {
+    flex: 1;
+  }
+  
+  .detectorText h2 {
+    font-size: 1.8rem;
+    color: white;
+    margin-bottom: 1rem;
+  }
+  
+  .detectorText p {
+    font-size: 1.1rem;
+    margin-bottom: 2.5rem;
+    color: rgba(255, 255, 255, 0.6);
+  }
+  
+  .detectorButton {
+    background-color: #2c2c2c;
+    color: white;
+    padding: 0.75rem 1.5rem;
+    text-decoration: none;
+    border-radius: 8px;
+    transition: background 0.3s ease;
+    font-size: 1.8em;
+    font-weight: bold;
+  }
+  
+  .detectorButton:hover {
+    background-color: #3a3a3a;
+  }
+
+  .journalistSection {
+    
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 2rem;
+  }
+  
+  .journalistContent {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    max-width: 1200px;
+    width: 100%;
+    gap: 3rem;
+  }
+  
+  .journalistText {
+    flex: 1;
+  }
+  
+  .journalistText h2 {
+    font-size: 1.8rem;
+    color: white;
+    margin-bottom: 1rem;
+  }
+  
+  .journalistText p {
+    font-size: 1.1rem;
+    margin-bottom: 2.5rem;
+    color: rgba(255, 255, 255, 0.6);
+
+  }
+  
+  .journalistButton {
+    background-color: #2c2c2c;
+    color: white;
+    padding: 0.75rem 1.5rem;
+    text-decoration: none;
+    border-radius: 8px;
+    transition: background 0.3s ease;
+    font-size: 1.8em;
+    font-weight: bold;
+  }
+  
+  .journalistButton:hover {
+    background-color: #3a3a3a;
+  }
+  
+  .journalistImage {
+    width: 40%;
+    max-width: 400px;
+  }
+
+  
+  /* Extension Section */
+.extensionSection {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 4rem 2rem;
+    height: 100vh; /* Full viewport height */
+    background-color: #181818;
+  }
+  
+  .extensionContent {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    max-width: 1200px;
+    width: 100%;
+    gap: 3rem;
+  }
+  
+  .extensionText {
+    flex: 1;
+    color: #023e8a; /* Dark blue color for text */
+  }
+  
+  .extensionText h2 {
+    font-size: 1.8rem;
+    color: white;
+    margin-bottom: 1rem;
+  }
+  
+  .extensionText p {
+    font-size: 1.1rem;
+    margin-bottom: 2.5rem;
+    color: rgba(255, 255, 255, 0.6);
+  }
+  
+  .extensionButton {
+    background-color: #2c2c2c;
+    color: white;
+    padding: 0.75rem 1.5rem;
+    text-decoration: none;
+    border-radius: 8px;
+    transition: background 0.3s ease;
+    font-size: 1.8em;
+    font-weight: bold;
+  }
+  
+  .extensionButton:hover {
+    background-color: #3a3a3a;
+  }
+  
+  .extensionImage {
+    width: 40%;
+    max-width: 400px;
+    object-fit: contain;
+  }
+  
+  /* src/components/Home/Home.module.css */
+.titleImage {
+    width: 100%;
+    max-width: 400px; /* Limit the width */
+    margin: 0 auto;
+    display: block;
+  }
+  
+  
+  
+  .team {
+    display: flex;
+    gap: 10rem;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+  }
+  
+  .member {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+  
+  .member img {
+    width: 280px;
+    height: 280px;
+    border-radius: 50%;
+    margin-bottom: 20px;
+  }
+  
+  .name {
+    font-weight: bold;
+    font-size: 2.2rem;
+    color: white;
+  }
+  
+  .role {
+    font-size: 1.4rem;
+    color: rgba(255, 255, 255, 0.6);
+
+  }
+  
+  .heading{
+    font-size: 3.5em;
+    margin-bottom: 40px;
+    color: white;
+  }

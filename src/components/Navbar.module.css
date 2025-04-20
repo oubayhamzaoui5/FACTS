@@ -1,0 +1,143 @@
+.navbar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: #292929;
+  position: fixed;
+  z-index: 99;
+  height: 54px;
+  width: 100vw;
+  padding: 0 32px;
+  color: white;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.3);
+}
+
+.logo {
+  font-size: 1.5rem;
+  font-weight: bold;
+  letter-spacing: 2px;
+}
+
+.logo a {
+  color: white;
+  text-decoration: none;
+}
+
+.searchContainer {
+  position: fixed;
+  flex: 1;
+  width: 480px;
+  margin: 0 2rem;
+  left: 50%;
+  transform: translateX(-60%);
+
+}
+
+.searchIcon {
+  position: absolute;
+  top: 50%;
+  left: 16px;
+  transform: translateY(-50%);
+  color: white;
+  pointer-events: none;
+}
+
+.search {
+  width: 100%;
+  padding: 0.5rem 1rem 0.5rem 2.5rem; /* add left padding for icon */
+  border-radius: 20px;
+  border: none;
+  outline: none;
+  text-align: left;
+  background-color: #393939;
+  color: white;
+
+}
+
+
+.navLinks {
+  list-style: none;
+  display: flex;
+  gap: 1.5rem;
+}
+.navLinks li  {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  
+
+}
+
+.navLinks li a {
+  color: white;
+  text-decoration: none;
+  font-weight: 500;
+  transition: opacity 0.3s ease;
+  font-size: 1.2em;
+  opacity:0.7;
+
+}
+
+.navLinks li a:hover {
+  opacity:1;
+}
+
+.userMenu {
+  position: relative;
+}
+
+.userInfo {
+  color: white;
+  font-weight: 500;
+  background-color: #393939;
+  font-size: 1.2em;
+  padding: 8px 12px;
+  border-radius: 4px;
+  cursor: pointer;
+  white-space: nowrap;
+}
+
+.dropdown {
+  position: absolute;
+  top: 100%;
+  right: -24px;
+  background-color: #393939;
+  border-radius: 6px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.2);
+  display: none;
+  flex-direction: column;
+  padding: 0.5rem 0;
+  z-index: 100;
+  min-width: 160px;
+}
+
+.dropdown li {
+  list-style: none;
+}
+
+.dropdown li a {
+  display: block;
+  padding: 10px 16px;
+  color: white;
+  text-decoration: none;
+  transition: background-color 0.2s;
+  font-size: 1rem;
+  opacity: 0.8;
+}
+
+
+.userMenu:hover .dropdown {
+  display: flex;
+}
+
+/* src/components/Home/Home.module.css */
+.logoLink {
+  display: inline-block;
+}
+
+.logoImage {
+  width: 100%;
+  max-width: 100px; /* Adjust the width as needed */
+  height: auto;
+  transform: translateY(5px);
+}
