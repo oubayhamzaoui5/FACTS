@@ -16,8 +16,7 @@ function AppContent() {
       {!isInvestigationPage ? (
         <div className="content">
           <Routes>
-          <Route exact path="/" render={() => <Redirect to="/home" />} />
-          <Route path="/home" element={<Home />} />
+          <Route path="/" element={<Home />} />
             <Route path="/articles" element={<Articles />} />
             <Route path="/detector" element={<TextDetector />} />
             <Route path="/investigation" element={<InvestigationWorkspace />} />
